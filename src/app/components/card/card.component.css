@@ -1,0 +1,22 @@
+.container {
+    min-height: 500px;
+    max-height: 656px;
+    min-width: 350px;
+    max-width: 432px;
+    border: solid 2px rgba(143, 142, 142, 0.507);
+    margin-top: 20px;
+    margin-left: 14px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.container>img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.container>img:hover {
+    transform: scale(1.1);
+}
