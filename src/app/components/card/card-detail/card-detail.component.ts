@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-detail',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardDetailComponent implements OnInit{
 
-title:string="Play It Now!"
-type:string="Full Game"
-classifications:string="PS4"
+@Input()
+title:string=""
+@Input()
+type:string=""
+@Input()
+classifications:string=""
 
   ngOnInit(): void {
   }

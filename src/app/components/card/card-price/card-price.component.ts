@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-price',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-price.component.css']
 })
 export class CardPriceComponent implements OnInit{
-  price:string="R$ 15,99"
+  @Input()
+  price:string=""
   ngOnInit(): void {
   }
 

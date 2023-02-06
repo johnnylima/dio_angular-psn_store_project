@@ -13,8 +13,8 @@
 }
 
 .container>img {
-    min-width: 100%;
-    min-height: 100%;
+    width: 350px;
+    height: 500px;
     transition: 0.5s;
 }
 

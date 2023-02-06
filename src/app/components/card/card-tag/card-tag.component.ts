@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-tag',
@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-tag.component.css']
 })
 export class CardTagComponent implements OnInit {
-  sallesType:string="Exclusive"
+
+  @Input()
+  salestype:string=""
+
   ngOnInit(): void {
   }
 
