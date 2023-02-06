@@ -16,5 +16,16 @@
 body {
     background: rgb(10, 22, 45);
     background: linear-gradient(145deg, rgba(10, 22, 45, 1) 0%, rgba(20, 68, 177, 1) 100%);
-    background-image: url("./assets/Layout.png");
+}
+
+body::after {
+    content: '';
+    background-image: url("./assets/Layout.png") !important;
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
