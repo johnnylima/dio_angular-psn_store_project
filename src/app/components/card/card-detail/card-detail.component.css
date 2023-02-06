@@ -14,12 +14,12 @@
 }
 
 .container>span.title {
-    font-size: 18px;
+    font-size: 14pt;
     font-weight: 600;
 }
 
 .container>span {
-    font-size: 14px;
+    font-size: 10pt;
     font-weight: 600;
 }
 
